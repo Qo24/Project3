@@ -1,0 +1,244 @@
+#first-div{
+    background-color: darkblue;
+    font-size: 45px;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    text-align: left;
+    text-decoration: dotted;
+    width:100%;
+    height:25%;
+    color:rgba(235, 216, 47, 0.979);
+    
+    }
+    #display{
+
+    }
+    #btn{
+        background-color: darkblue;
+        color: aliceblue;
+
+    }
+    h3{
+        color: aliceblue;
+        text-align: center;
+    }
+    
+    #image-formating{
+        float: right;
+       height: 174px;
+        width: 150px;
+    }
+    
+    
+    #headings-formating{
+        font-size: 35px;
+        text-align: center;
+        background-color:darkblue;
+        color: rgba(235, 216, 47, 0.979);
+        font-family:Brush Script MT, Brush Script Std, cursive; 
+        margin-top: 0;
+        padding:0;
+        width: 100%;
+    }
+    #details-images-formating{
+       text-align: center;
+        height:20px;
+        
+        
+    }
+    #mail-link{
+        float: right;
+    }
+    #details-div{
+    
+    text-align: center;
+    }
+    ul{
+        list-style-type: none;
+    }
+    p{
+        text-align: center;
+        color: azure;
+    }
+    .accordion-panel { 
+        display: none; } 
+        .acordion-control{
+            color: aliceblue;
+            text-align: center;
+        }
+    ul{
+        display: table;
+        margin:auto;
+        color: azure;
+        
+    }
+    body{
+        background-color: rgba(230, 102, 18, 0.979);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table{
+        border-color: darkblue;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        height:20%;
+    }
+    
+    #table-first-th-styling{
+        background-color: darkblue;
+        color: rgba(235, 216, 47, 0.979);
+        border-color: darkblue;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 22px;
+        
+        
+    }
+    #table-other-th-styling{
+        background-color:rgba(235, 216, 47, 0.979) ;
+        color:azure ;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #nav-main{
+        
+        width: 100%;
+        height: 60px;
+        top: 0;
+        background-color: darkblue;
+        display: flex;
+        flex-wrap: wrap; 
+        z-index: 1000;
+        clear: both;
+        
+     }
+     
+     
+     #button-toggle-nav{
+         width: 60px;
+         height: 100%;
+         background-color: black;
+         background-image: url("menu.png");
+         background-repeat: no-repeat;
+         background-size: 40%;
+         background-position: center;
+         cursor: pointer;
+     }
+     #button-toggle-nav:hover{
+         opacity: 0.5;}
+     #nav-main-ul{
+         display: flex;
+         flex-wrap: wrap;
+         padding-left: 15px;
+     }
+     #nav-main-li{
+         list-style: none;
+         line-height: 60px;
+     }
+     #profile-div{
+     text-align: center;
+    display:none;
+    
+    }
+    #education-div{
+    text-align: center;
+    display:none;
+    
+    }
+    #languages-spoken-div{
+    text-align: center;
+    display:none;
+    
+    
+    }
+    #employment-history-div{
+    text-align: center;
+    display: none;
+    
+    }
+    #details-div{
+    text-align: center;
+    display: none;
+    
+    }
+    
+ 
+    #nav-main-education {
+        display: block;
+        height: 100%;
+        padding: 0 10px;
+        text-decoration: none;
+        color:azure;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    #nav-main-employment-history{
+        display: block;
+        height: 100%;
+        padding: 0 10px;
+        text-decoration: none;
+        color:azure;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    #nav-main-languages-spoken {
+       display: block;
+       height: 100%;
+       padding: 0 10px;
+       text-decoration: none;
+       color:azure;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+   }
+   
+   #nav-main-profile {
+       display: block;
+       height: 100%;
+       padding: 0 10px;
+       text-decoration: none;
+       color:azure;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+   }
+   #nav-main-animation{
+    
+        display: block;
+        height: 100%;
+        padding: 0 10px;
+        text-decoration: none;
+        color:azure;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+   }
+   #nav-main-details {
+       display: block;
+       height: 100%;
+       padding: 0 10px;
+       text-decoration: none;
+       color:azure;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+   }
+   .go-Top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    font-size:25px;
+    background-color:darkblue;
+    color:azure;
+    border: 2px solid ;
+    border-radius: 7px;
+    box-shadow: 7px 7px 12px -7px rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    transition: 0.7s;
+    text-align: center;
+    font-size: small;
+}
+.go-Top:focus{
+    outline: none;
+}
+.go-Top:hover{
+    background-color: orange;
+    
+    
+}

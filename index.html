@@ -1,0 +1,164 @@
+<html>
+<head>
+   <title>CV</title> 
+<link rel="stylesheet" href="Styles.css"" type="text/css">
+
+</head>
+<!--All the hr tags have been removed from the html file as they didnt have any purpose as I began to use css for styling and actually made my website a bit messier. Also bold tags arent necessary for the headings since the color of the text is white and we wont see much difference so those will be deleted too compared to the previous html file.-->
+<body>
+
+<!--div for the background color of the website-->
+
+<!--First division for the h1 tag-->
+<div id="first-div">
+<h1 >CV : Mirza Redžepović<img id="image-formating" src="CVSlika.png" alt="picture of me for my cv"></h1>
+</div>
+<nav id="nav-main">
+  <div id="button-toggle-nav"></div>
+  <ul id="nav-main-ul">
+<li id="nav-main-li"><a id="nav-main-profile"  onclick="displayProfile()" href="#">Profile</a></li>
+<li id="nav-main-li"><a id="nav-main-education" onclick="displayEducation()" href="#">Education</a></li>
+<li id="nav-main-li"><a id="nav-main-employment-history" onclick="displayEmploymentHistory()" href="#">Employment history</a></li>
+<li id="nav-main-li"><a id="nav-main-languages-spoken" onclick="displayLanguagesSpoken()" href="#">Languages spoken</a></li>
+<li id="nav-main-li"><a id="nav-main-details" onclick="displayDetails()" href="#">Details</a></li>
+<!--For the animation I have created a separate website containing its own javscript html and css code. The website isnt anything special but it serves the purpose regarding the animation and array.<-->
+<li id="nav-main-li"><a id="nav-main-animation" href="AnimationWebsite.html">Animation</a></li>
+</ul>
+</nav>
+<!--Profile-->
+<!--heading styling-->
+<div id ="profile-div">
+<h2 id="headings-formating">Profile:</h2>
+<p>I am a student at the International University of Sarajevo.
+ I am a third year student of the Faculty of Engineering and Natural Sciences.<br>Through my studies I have been able to gain knowledge regarding many programming 
+ <br> such as :
+<!--Unordered list-->
+<ul id = "ul">
+<li>Java</li>
+<li>C++</li>
+<li>Python</li>
+<li>Ruby</li>
+<li>Work with databases(MySQL)</li>
+</ul>
+<p>I am also familiarized with the concepts like Object-Oriented-Programming <i>(OOP)</i>, creating user interfaces<br> and am a student that seeks employment in order to apply this knowledge that I have gained in a real-world environment.<br>Apart from programming I have also taken courses on IUS related to Menagment and marketing <br>like:</p>
+<ul>
+<li>Introduction to menagment <a href="https://ecampus.ius.edu.ba/course/man102-introduction-management">MAN102</a></li>
+<li>International marketing <a href="https://ecampus.ius.edu.ba/course/man443-international-marketing">MAN443</a></li>    
+</ul>
+</div>
+<!--Education-->
+<!--heading styling-->
+<div id="education-div">
+<h2 id="headings-formating">Education:</h2>
+
+<p>Bachelor of Engineering and Natural Sciences <i>(2019-Present)</i></p>
+<p>High School Diploma, First Bosniak Gymnasium, Sarajevo</p>
+</div>
+<!--Languages spoken-->
+<!--Table for Languages spoken. Here I have removed a heading that I have previously had on my website since the heading is also displayed inside the table. Here I have used id's second-table-first-th-styling and second-table-other-th-styling to edit the look of the table such as background color of the text it's size border colors and many other things that are available in the Styles file.-->
+<div id="languages-spoken-div">
+  <h2 id="headings-formating">Languages spoken:</h2>
+<Table border="4" width=35%   align="center">
+  <tr>
+     <th id="table-first-th-styling" colspan="3"><br><h3>Languages spoken</h3>
+     </th>
+    </tr>
+  <tr id="table-other-th-styling">
+     <th >Bosnian</th>
+     <th>English</th>
+     <th>German</th>
+  </tr>
+
+</table>
+</div>
+<!--Employment history.-->
+<!--heading styling-->
+<div id="employment-history-div">
+<h2 id="headings-formating">Employment history:</h2>
+<!--Table for employment history.-->
+<table border="4" width="55%"  align="center">
+<tr id="table-first-th-styling">
+  <th>Company</th>
+  <th>City</th>
+  <th>Address</th>
+  <th>Working period</th>
+</tr>
+<tr id="table-other-th-styling">
+  <th>Europcar</th>
+  <th>Sarajevo</th>
+  <th>Bulevar Meše Selimoviča 16</th>
+  <th>June 2019 - September 2019</th>
+</tr>
+</table>
+
+  <p>Things done on the position:
+<ul>
+  <li>Inspecting the interior and exterior of the car to check for damages</li>
+<li>Explaining rental and paperwork process</li>
+<li>Bringing  cars to the customers desired location</li>
+<li>Taking cars to car wash and petrol</li>
+</ul>
+  </p>
+  
+</div>
+
+<!--Details: here i have also decided to replace the info like name birth date and all the text related to this with images that i found on flaticon in order to make the website more responsive. I have also removed the listing tags for the details section and have inserted breaks for each line. I also have not placed icons for date of birth and status due to the fact that the icons which I have managed to find looked unclear and may confuse the viewer.-->
+<!--heading styling-->
+<div id="details-div">
+<h2 id="headings-formating">Details:</h2>
+<div>
+ <!--<p><img id="details-images-formating" src="name.png" alt="name icon"> Mirza Redžepović<br></p>
+  <p><img id="details-images-formating" src="pin.png" alt="Location icon">Muhameda ef.Pandže 393, 71000<br></p>
+    <p><img id="details-images-formating" src="home.png" alt="home icon"> Bosnia and Herzegovina<br></p>
+    <p><img id="details-images-formating" src="email.png" alt="mail icon"><a  href="mailto:redzepovicmirza@gmail.com">   redzepovicmirza@gmail.com</a><br></p>
+    <p><img id="details-images-formating" src="phone-call.png" alt="phone icon"> (387)62-846-004<br></p>
+    <p><img id="details-images-formating" src="github.png" alt="github icon"><a href=" https://qo24.github.io/Project-2/">Click here</a><br></p>
+    <p><b>Link to project 1:</b><a href=" https://qo24.github.io/CV/">Project 1</a> <br></p>   
+    <p><b>Date of birth:</b> 27-11-2000<br></p>
+    <p><b>Status:</b>Student</p>-->
+    <!--This button doesnt have any special function but is created because of the for loop to count how many times a button is actually clicked.-->
+    <p>
+      Button Clicked <span 
+      id="display">0</span> Times
+  </p>
+<ul class="accordion"> 
+    <li> 
+    <button class="accordion-control"><img id ="details-images-formating"src="name.png" alt="name icon"></button> 
+    <div class="accordion-panel">Mirza Redzepovic</div> 
+    </li> 
+    <li> 
+    <button class="accordion-control"><img id="details-images-formating" src="pin.png" alt="Location icon"></button> 
+    <div class="accordion-panel">Muhameda ef. Pandže 393 </div> 
+    </li> 
+    <li> 
+    <button class="accordion-control"><img id="details-images-formating" src="home.png" alt="home icon"></button> 
+    <div class="accordion-panel">Bosnia and Herzegovina </div> 
+    </li> 
+    <li>
+    <button class="accordion-control"><img id="details-images-formating" src="email.png" alt="mail icon"></button> 
+    <div class="accordion-panel"> <a  href="mailto:redzepovicmirza@gmail.com">   redzepovicmirza@gmail.com</a></div> 
+    </li> 
+    <li> 
+      <button class="accordion-control"><img id="details-images-formating" src="phone-call.png" alt="phone icon"></button> 
+      <div class="accordion-panel">(387)62-846-004 </div> 
+      </li> 
+      <li> 
+        <button class="accordion-control"><img id="details-images-formating" src="github.png" alt="github icon"></button> 
+        <div class="accordion-panel"><a href=" https://qo24.github.io/Project-2/">Click here</a> </div> 
+        </li> 
+        <li> 
+          <button class="accordion-control">Link to project1</button> 
+          <div class="accordion-panel"><a href=" https://qo24.github.io/CV/">Project 1</a>
+          </div> 
+          </li> 
+    </ul>-->
+
+    <button id="btn">Click Here!</button>
+</div>
+</div>
+<button class="go-top" onclick="goToTop()">Top</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="add-content.js"></script>
+</body>
+
+</html>
